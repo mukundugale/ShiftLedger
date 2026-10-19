@@ -86,6 +86,25 @@ education, and isolated lab environments only.
 Do not deploy the intentionally vulnerable application on a
 public-facing server.
 
+## 📦 Download the Complete Lab
+
+The complete ShiftLedger lab is available as a ZIP archive.
+
+**Included:**
+- Vulnerable web application source code
+- Lab setup and reset scripts
+- Privilege escalation components
+- Technical write-up
+- Exploitation walkthrough video
+- Network diagram
+
+Download the archive from the repository files.
+
+> ⚠️ Warning: ShiftLedger is an intentionally vulnerable security lab.
+> Run it only in an isolated, disposable virtual machine.
+> Never expose it to an untrusted network or deploy it in production.
+
+
 ## Author
 
 Mukund Ugale
