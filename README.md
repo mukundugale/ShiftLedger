@@ -99,6 +99,7 @@ The complete ShiftLedger lab is available as a ZIP archive.
 - Network diagram
 
 Download the archive from the repository files.
+[Download ShiftLedger ZIP](MukundUgale_ShiftLedger.zip)
 
 > ⚠️ Warning: ShiftLedger is an intentionally vulnerable security lab.
 > Run it only in an isolated, disposable virtual machine.
