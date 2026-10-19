@@ -12,6 +12,21 @@ The project demonstrates how multiple security weaknesses can
 be chained to escalate privileges from a low-privileged
 employee account to root access on a Linux machine.
 
+## 🎥 Video Walkthrough
+
+Watch the complete ShiftLedger exploitation walkthrough.
+
+[▶ Watch on YouTube](https://youtu.be/xfKawguLSZE)
+
+The walkthrough demonstrates the exploitation methodology,
+vulnerability chain, and privilege escalation in the lab.
+
+## 📄 Technical Documentation
+
+Read the complete assessment report:
+
+[View ShiftLedger Write-up](docs/ShiftLedger_Writeup.pdf)
+
 ## Project Details
 
 - **Project:** ShiftLedger
@@ -29,33 +44,14 @@ employee account to root access on a Linux machine.
 4. Insecure Deserialization using Python Pickle
 5. Linux Privilege Escalation through a Root-Running Service
 
-## Attack Chain
+## 🔗 Attack Chain
 
-Employee Account
-       |
-       v
-Mass Assignment
-       |
-       v
-Supervisor Privileges
-       |
-       v
-Role Escalation
-       |
-       v
-Finance Administrator
-       |
-       v
-Server-Side Template Injection
-       |
-       v
-Application Service Account
-       |
-       v
-Insecure Deserialization
-       |
-       v
-Root Access
+1. **Initial Access:** Employee account
+2. **Privilege Escalation:** Mass assignment
+3. **Role Escalation:** Broken access control
+4. **Code Execution:** Server-Side Template Injection (SSTI)
+5. **Linux Privilege Escalation:** Insecure deserialization
+6. **Final Impact:** Root access
 
 ## Methodology
 
